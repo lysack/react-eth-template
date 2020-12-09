@@ -8,7 +8,7 @@ import { useWeb3React } from "@web3-react/core";
 
 // Enter a valid infura key here to avoid being rate limited
 // You can get a key for free at https://infura.io/register
-const INFURA_ID = "a3c6958b462c4a948748539b86b35200";
+const INFURA_ID = "YOUR_INFURA_KEY";
 
 const NETWORK_NAME = "mainnet";
  
