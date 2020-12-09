@@ -1,18 +1,40 @@
 import styled from "styled-components";
 
+export const StyledTitle = styled.h1`
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  font-size: calc(12px + 2vmin);
+`
+export const BigEmoji = styled.div`
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  font-size: calc(120px + 10vmin);
+`
+export const StyledNote = styled.h4`
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  font-size: calc(3px + 1vmin);
+`
+
 export const Header = styled.header`
-  background-color: #282c34;
+  background-color: #01bf2b;
   min-height: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #eff9fb;
 `;
 
 export const Body = styled.body`
   align-items: center;
-  background-color: #282c34;
+  background-color: #f04554;
   color: white;
   display: flex;
   flex-direction: column;
